@@ -1,0 +1,44 @@
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+}
+a[href^="https"] {
+  color: #0b66c3;
+  font-weight: 600;
+}
+a:hover {
+  text-decoration: underline;
+}
+input:focus {
+  outline: 3px solid rgba(11, 102, 195, 0.18);
+}
+.demo-list li:nth-child(odd) {
+  background: #eef;
+}
+.demo-list li:nth-child(3) {
+  font-weight: 700;
+}
+main > h1 {
+  margin-top: 18px;
+}
+input + label {
+  margin-left: 8px;
+  color: #444;
+}
+.links a ~ a {
+  opacity: 0.9;
+}
+.links li a {
+  display: inline-block;
+  padding: 6px;
+}
+
+.demo-list li::before {
+  content: "• ";
+  color: #0b66c3;
+}
+.links li a::after {
+  content: " ↗";
+  font-size: 0.85rem;
+}
